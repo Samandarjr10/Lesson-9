@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Templete</title>
+    <title>Travel</title>
 </head>
-<body>
-  
+<body class="bg-primary">
+    <h1 class="visually-hidden">Travel way</h1>
+
+    <header class="text-center pt-5">
+        <div class="container-fluid">
+            <form class="d-flex justify-content-center mb-5" id="form" method="get">
+                <input class="form-control w-25 d-inline-block" type="text" name="input_value" id="input" required>
+                <button class="btn-outline-info" id="btn" type="submit">Jo'natish</button>
+            </form>
+
+            <h2 class="text-danger mb-5">Turlari</h2>
+            <ul class="list d-flex m-0 p-0 justify-content-between f-wrap">
+                <li class="w-35 f-wrap">
+                    <h3>Person</h3>
+                    <span id="on_foot"></span>
+                    <img class="mt-5 rounded-circle bg-light" src="./images/image1.png" alt="Person" width="225" height="225">
+                </li>
+                <li class="w-35 f-wrap">
+                    <h3>Bike</h3>
+                    <span id="by_bike"></span>
+                    <img class="mt-5 rounded-circle" src="./images/images2.png" alt="Bike" width="225" height="225">
+                </li>
+                <li class="w-35 f-wrap">
+                    <h3>Car</h3>
+                    <span id="by_car"></span>
+                    <img class="mt-5 rounded-circle" src="./images/image3.jpg" alt="Car" width="225" height="225">
+                </li>
+                <li class="w-35 f-wrap">
+                    <h3>Plane</h3>
+                    <span id="by_plane"></span>
+                    <img class="mt-5 rounded-circle" src="./images/image4.jpg" alt="Plane" width="225" height="225">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <script src="./js/bootstrap.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

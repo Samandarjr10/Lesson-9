@@ -396,4 +396,8 @@ main {
   padding-right: 20px;
   padding-left: 20px;
 }
+
+.list {
+  list-style-type: none;
+}
 /*# sourceMappingURL=main.css.map */
